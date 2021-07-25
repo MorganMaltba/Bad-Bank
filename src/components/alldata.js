@@ -6,6 +6,7 @@ function AllData() {
   const context = React.useContext(UserContext);
 
   return (
+
     <div>
       <Card
         txtcolor="black"
@@ -25,21 +26,21 @@ function AllData() {
                 <th scope="col">Balance</th>
                 <th scope="col">Logged-In?</th>
               </tr>
-            </thead> 
+            </thead>
 
             <tbody>
 
-            { 
-              context.users.map( (user, i) => 
-                <tr key = {i}>
-                  <td>{user.name}</td>
-                  <td>{user.email}</td>
-                  <td>{user.password}</td>
-                  <td>{user.balance}</td>
-                  <td>{`${user.logged}`}</td>
-                </tr>
-              )
-            }
+              {
+                context.users.map((user, i) =>
+                  <tr key={i}>
+                    <td>{user.name}</td>
+                    <td>{user.email}</td>
+                    <td>{user.password}</td>
+                    <td>{user.balance}</td>
+                    <td>{`${user.logged}`}</td>
+                  </tr>
+                )
+              }
 
             </tbody>
           </table>
