@@ -2,5 +2,7 @@ build:
   docker:
     web: /client/Dockerfile
     worker: /backend/Dockerfile
-    mongo: mongo
+  run:
+    web: npm start
+    worker: node index.js
   
