@@ -1,0 +1,6 @@
+build:
+  docker:
+    mongo: mongo
+    backend: ./backend/Dockerfile
+    client: ./client/Dockerfile
+  
