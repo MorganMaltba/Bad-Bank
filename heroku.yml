@@ -1,6 +1,6 @@
 build:
   docker:
+    web: /client/Dockerfile
+    worker: /backend/Dockerfile
     mongo: mongo
-    backend: ./backend/Dockerfile
-    client: ./client/Dockerfile
   
