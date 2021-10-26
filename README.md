@@ -20,7 +20,7 @@ Features include:<br>
 **Installation Guide:**<br>
 Prerequisites: Docker and Firebase
 1. Clone project into a project directory.
-2. Replace the firebaseConfig object with your own from firebase project settings.
+2. Replace the firebaseConfig object in client/src/fire.js with your own from firebase project settings.
 3. Open a terminal in the root directory and command: docker-compose up
 4. See it at localhost:3000!
 
