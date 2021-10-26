@@ -1,10 +1,9 @@
 const MongoClient = require('mongodb').MongoClient;
 
-const uri = process.env.MONGODB_URI;
 const url = 'mongodb://mongo:27017';
 let db = null;
 
-await MongoClient.connect(uri, {useUnifiedTopology: true}, (err, client) => {
+MongoClient.connect(url, {useUnifiedTopology: true}, (err, client) => {
     console.log('Connected to MongoDB...');
     db = client.db('bad-bank')
 });
