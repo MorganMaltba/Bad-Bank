@@ -1,0 +1,27 @@
+{
+  "name": "bad-bank-back-end",
+  "version": "1.0.0",
+  "description": "Add back-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MorganMaltba/bad-bank.git"
+  },
+  "author": "Morgan Maltba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MorganMaltba/bad-bank/issues"
+  },
+  "homepage": "https://github.com/MorganMaltba/bad-bank#readme",
+  "dependencies": {
+    "admin": "^1.4.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase": "^9.1.3",
+    "firebase-admin": "^10.0.0",
+    "mongodb": "^4.1.2"
+  }
+}

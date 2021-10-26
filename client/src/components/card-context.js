@@ -20,7 +20,6 @@ function Card(props) {
         {props.status && (<div id='createstatus'>{props.status}</div>)}
       </div>
     </div>
-    
   );
 };
 
