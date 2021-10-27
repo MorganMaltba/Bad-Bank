@@ -1,6 +1,10 @@
 const MongoClient = require('mongodb').MongoClient;
 
-const url = 'mongodb://mongo:27017';
+// URL to MongoDB Atlas
+const url = "mongodb+srv://bad-bank-admin:KB90Hoqj50O46hRH@bad-bank-cluster.db1xo.mongodb.net/bad-bank?retryWrites=true&w=majority"
+// URL to connect locally to Docker Mongo
+// const url = 'mongodb://mongo:27017';
+
 let db = null;
 
 MongoClient.connect(url, {useUnifiedTopology: true}, (err, client) => {
