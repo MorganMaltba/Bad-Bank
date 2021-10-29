@@ -22,14 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  
-  "proxy": {
-    "/account/": {
-      "target": "https://morgan-maltbafullstackbankapp.herokuapp.com/",
-      "ws": true
-    }
-  },
-  
+  "proxy" :"https://morgan-maltbafullstackbankapp.herokuapp.com/",
   "eslintConfig": {
     "extends": [
       "react-app",
