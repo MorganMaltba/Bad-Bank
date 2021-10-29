@@ -53,7 +53,7 @@ app.get('/account/delete/:email', (req, res) => {
     .catch( (err) => console.log(err))
 });
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 app.listen(port, () => {
   console.log(`Running on Port ${port}...`);
 });
