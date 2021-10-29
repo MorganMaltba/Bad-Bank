@@ -3,7 +3,7 @@ const cors = require('cors');
 const dal = require('./dal.js');
 const app = express();
 
-app.use(express.static('client'));
+app.use(express.static('./client'));
 app.use(cors());
 
 app.get('/account/create/:name/:email/:password', (req, res) => {
