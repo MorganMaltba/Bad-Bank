@@ -1,10 +1,12 @@
 const express = require('express');
+const path = require('path')
 const cors = require('cors');
 const dal = require('./dal.js');
 const app = express();
 
-app.use(express.static('./client'));
 app.use(cors());
+
+app.use(express.static(path.join(__dirname, 'client/build')));
 
 app.get('/account/create/:name/:email/:password', (req, res) => {
 
@@ -51,6 +53,10 @@ app.get('/account/delete/:email', (req, res) => {
   dal.deleteAccount(req.params.email)
     .then( ()=> res.send('User Deleted'))
     .catch( (err) => console.log(err))
+});
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname+'/client/build/index.html'));
 });
 
 const port = process.env.PORT || 3001;
