@@ -4,7 +4,7 @@ module.exports = function(app) {
   app.use(
     '/account',
     createProxyMiddleware({
-      target: 'https://morgan-maltbafullstackbankapp.herokuapp.com/',
+      target: 'http://localhost:3001',
       changeOrigin: true,
     })
   );

@@ -15,14 +15,14 @@ import Login from './components/login.js';
 import {
   Switch,
   Route,
-  HashRouter,
+  BrowserRouter,
 } from 'react-router-dom';
 
 
 function App() {
 
   return (
-    <HashRouter>
+    <BrowserRouter>
       <div id='grid' className='main'>
         <NavBar />
         <div className='container'>
@@ -39,7 +39,7 @@ function App() {
           </Switch>
         </div>
       </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
