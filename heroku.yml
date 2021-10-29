@@ -1,7 +1,0 @@
-build:
-  docker:
-    web: backend/client/Dockerfile
-    worker: /backend/Dockerfile
-run:
-  web: npm start
-  worker: node index.js
