@@ -22,8 +22,9 @@ import {
 function App() {
 
   return (
-    <BrowserRouter>
-      <div id='grid' className='main'>
+
+    <div id='grid' className='main'>
+      <BrowserRouter>
         <NavBar />
         <div className='container'>
           <Switch>
@@ -51,8 +52,8 @@ function App() {
 
           </Switch>
         </div>
-      </div>
     </BrowserRouter>
+  </div>
   );
 }
 

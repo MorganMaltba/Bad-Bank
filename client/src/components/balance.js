@@ -53,8 +53,8 @@ function UserBalance(props) {
         text={(
           <div>
             Need something else?
-            <h4><a className='link' href='/#/withdraw/'>Withdraw</a></h4>
-            <h4><a className='link' href='/#/deposit/'>Deposit</a></h4>
+            <h4><a className='link' href='/withdraw/'>Withdraw</a></h4>
+            <h4><a className='link' href='/deposit/'>Deposit</a></h4>
           </div>
         )}
         body={<img alt='vault' className='rounded mx-auto d-block' src={photo} />}
