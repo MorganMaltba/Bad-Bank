@@ -31,13 +31,13 @@ function NavBar() {
                 data-html="true"
                 data-placement="right"
                 title="create a new account"
-                href="#/createaccount/"
+                href="/createaccount/"
               >Create Account</a>
             </li>
 
             <li className="nav-item">
               <a className="nav-link"
-                href="#/login/"
+                href="/login/"
                 data-toggle="tooltip"
                 data-placement="right"
                 title="login to your account"
@@ -46,7 +46,7 @@ function NavBar() {
 
             <li className="nav-item">
               <a className="nav-link"
-                href="#/balance/"
+                href="/balance/"
                 data-toggle="tooltip"
                 data-placement="right"
                 title="view account balance"
@@ -55,7 +55,7 @@ function NavBar() {
 
             <li className="nav-item">
               <a className="nav-link"
-                href="#/withdraw/"
+                href="/withdraw/"
                 data-toggle="tooltip"
                 data-placement="right"
                 title="withdraw funds from your account"
@@ -64,7 +64,7 @@ function NavBar() {
 
             <li className="nav-item">
               <a className="nav-link"
-                href="#/deposit/"
+                href="/deposit/"
                 data-toggle="tooltip"
                 data-placement="right"
                 title="deposit funds into your account"
@@ -73,7 +73,7 @@ function NavBar() {
 
             <li className="nav-item">
               <a className="nav-link"
-                href="#/alldata/"
+                href="/alldata/"
                 data-toggle="tooltip"
                 data-placement="right"
                 title="view all user data"

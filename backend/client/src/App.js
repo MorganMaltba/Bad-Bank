@@ -28,13 +28,26 @@ function App() {
         <div className='container'>
           <Switch>
 
-            <Route path='/' exact component={Home} />
-            <Route path='/createaccount/' component={CreateAccount} />
-            <Route path='/login/' component={Login} />
-            <Route path='/balance/' component={Balance} />
-            <Route path='/withdraw/' component={Withdraw} />
-            <Route path='/deposit/' component={Deposit} />
-            <Route path='/alldata/' component={AllData} />
+            <Route exact path='/' >
+              <Home/> 
+            </Route>
+            <Route path='/createaccount/'> 
+              <CreateAccount/> 
+            </Route>
+            <Route path='/login/'> 
+              <Login/> 
+            </Route>
+            <Route path='/balance/'>
+              <Balance/> </Route>
+            <Route path='/withdraw/'> 
+              <Withdraw/> 
+            </Route>
+            <Route path='/deposit/'> 
+              <Deposit/> 
+            </Route>
+            <Route path='/alldata/'>
+              <AllData/> 
+            </Route>
 
           </Switch>
         </div>
