@@ -26,7 +26,7 @@ Prerequisites: Docker and Firebase
 
 **How to Run:** <br>
 To see the client-side only protoype, go to [The Bad Bank Bucket](http://morgan-maltbabankingapplication.s3-website.us-east-2.amazonaws.com/#/)!<br>
-Live demo available from soon! Stay tuned!
+[Live demo available from Heroku!](https://morgan-maltbafullstackbankapp.herokuapp.com/)
 
 **Technologies Used:** <br>
  - React Front-End Application in Docker Container! <br>
