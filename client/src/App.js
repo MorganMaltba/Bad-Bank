@@ -22,8 +22,6 @@ import {
 function App() {
 
   return (
-
-    <div id='grid' className='main'>
       <BrowserRouter>
         <div>
           <NavBar />
@@ -55,7 +53,6 @@ function App() {
           </Switch>
         </div>
     </BrowserRouter>
-  </div>
   );
 }
 
