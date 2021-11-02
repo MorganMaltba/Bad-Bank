@@ -23,6 +23,7 @@ function App() {
 
   return (
       <BrowserRouter>
+    <div id='grid' className='main'>
         <div>
           <NavBar />
         </div>
@@ -52,6 +53,7 @@ function App() {
 
           </Switch>
         </div>
+      </div>
     </BrowserRouter>
   );
 }
