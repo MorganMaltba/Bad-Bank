@@ -24,9 +24,7 @@ function App() {
   return (
       <BrowserRouter>
     <div id='grid' className='main'>
-        <div id='topnav'>
           <NavBar />
-        </div>
         <div className='container'>
           <Switch>
 
