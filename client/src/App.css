@@ -28,11 +28,6 @@
   background-size: cover;
 }
 
-#topnav{
-  grid-column-start: 1;
-  grid-column-end: 4;
-}
-
 .container{
   padding: 15px;
   margin:10px;
