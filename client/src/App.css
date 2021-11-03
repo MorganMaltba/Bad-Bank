@@ -19,8 +19,8 @@
 
 #grid{
   display:grid;
-  grid-auto-columns: 1fr 3fr 1fr;
   grid-template-rows: 100%, auto;
+  grid-auto-columns: 1fr 3fr 1fr;
   justify-items: center;
   margin-bottom: 0px;
   background-image: url('./components/images/money.jpg'); /*CREDIT: GETTY IMAGES/ISTOCKPHOTO*/

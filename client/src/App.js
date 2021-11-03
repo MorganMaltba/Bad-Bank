@@ -23,8 +23,8 @@ function App() {
 
   return (
       <BrowserRouter>
+      <NavBar />
     <div id='grid' className='main'>
-          <NavBar />
         <div className='container'>
           <Switch>
 
